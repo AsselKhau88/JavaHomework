@@ -7,9 +7,9 @@ public class E13Arrays {
         int []numbers=new int[3];
         Scanner scan=new Scanner(System.in);
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int row = 0; row < 3; row++) {
             System.out.println("Please enter int numbers");
-            numbers[i]=scan.nextInt();
+            numbers[row]=scan.nextInt();
         }
         for (int number : numbers) {
             System.out.println(number);

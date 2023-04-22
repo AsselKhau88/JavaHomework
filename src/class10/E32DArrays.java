@@ -8,8 +8,8 @@ public interface E32DArrays {
                 {102, 54, 60}
         };
         int[] arr1 = matrix[0];
-        for (int i = 0; i < arr1.length; i++) {
-            System.out.print(arr1[i] + " ");
+        for (int row = 0; row < arr1.length; row++) {
+            System.out.print(arr1[row] + " ");
         }
             System.out.println();
         arr1 = matrix[1];
