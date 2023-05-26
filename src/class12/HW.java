@@ -3,10 +3,10 @@ package class12;
 public class HW {
     public static void main(String[] args) {
         String name = "Adele";
-        for (int i = 0; i < name.length(); i++) {
-
-            }if(name.length()%2!=0 && name.length()>3 ){
-                System.out.println(name.indexOf(2));
+        if(!name.isEmpty()&&name.length()%2!=0 && name.length()>=3 ){
+            int middleIndex=name.length()/2;
+            char middleChar=name.charAt(middleIndex);
+            System.out.println(middleChar);
 
             }
 
